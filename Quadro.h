@@ -18,7 +18,7 @@ void X(TipoQuadro *Quadro, int Quantidade);
 void Aleatorio(TipoQuadro *Quadro, int Quantidade);
 void Triangulo(TipoQuadro *Quadro, int Quantidade);
 void Circulo(TipoQuadro * Quadro, int Quantidade);
-void Maiorque100(int Quantidade);
-void Menorque0(int Quantidade);
+int Maiorque100(int Quantidade);
+int Menorque0(int Quantidade);
 
 #endif // QUADRO_H_INCLUDED
