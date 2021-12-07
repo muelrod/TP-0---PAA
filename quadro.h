@@ -16,7 +16,7 @@ void Asteristico(TipoQuadro *Quadro,int Quantidade);
 void Soma(TipoQuadro *Quadro, int Quantidade);
 void X(TipoQuadro *Quadro, int Quantidade);
 void Aleatorio(TipoQuadro *Quadro, int Quantidade);
-void Desenhovaquinha(TipoQuadro *Quadro, int Quantidade);
+void ObraAluno(TipoQuadro *Quadro, int Quantidade);
 int VerificaQuantidade(int Quantidade);
 int verificaEspacoMatriz(int linhaAleatoria,int colunaAleatoria);
 
