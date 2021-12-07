@@ -149,7 +149,7 @@ void Aleatorio(TipoQuadro *Quadro, int Quantidade){
 }
 
 
-void Desenhovaquinha(TipoQuadro *Quadro, int Quantidade){
+void ObraAluno(TipoQuadro *Quadro, int Quantidade){
   int i,j,valor;
   srand(time(NULL));
   Quantidade = VerificaQuantidade(Quantidade);
