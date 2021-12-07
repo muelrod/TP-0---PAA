@@ -117,8 +117,11 @@ void X(TipoQuadro *Quadro, int Quantidade){
         }
       }
       if(flag ==1){
-        if((Quadro->quadro[linhaAleatoria][colunaAleatoria]==' ') && (Quadro->quadro[linhaAleatoria-1][colunaAleatoria+1]==' ')
-        && (Quadro->quadro[linhaAleatoria-1][colunaAleatoria-1]==' ') && (Quadro->quadro[linhaAleatoria+1][colunaAleatoria-1]==' ') && (Quadro->quadro[linhaAleatoria+1][colunaAleatoria+1]==' ')){
+        if((Quadro->quadro[linhaAleatoria][colunaAleatoria]==' ') 
+        && (Quadro->quadro[linhaAleatoria-1][colunaAleatoria+1]==' ')
+        && (Quadro->quadro[linhaAleatoria-1][colunaAleatoria-1]==' ') 
+        && (Quadro->quadro[linhaAleatoria+1][colunaAleatoria-1]==' ') 
+        && (Quadro->quadro[linhaAleatoria+1][colunaAleatoria+1]==' ')){
           Quadro->quadro[linhaAleatoria-1][colunaAleatoria+1]='*';
           Quadro->quadro[linhaAleatoria-1][colunaAleatoria-1]='*';
           Quadro->quadro[linhaAleatoria+1][colunaAleatoria-1]='*';
