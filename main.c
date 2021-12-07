@@ -135,7 +135,7 @@ int main()
       scanf("%d",&quantidadefiguras);
       quantidadefiguras = VerificaQuantidade(quantidadefiguras);
       
-      Desenhovaquinha(&quadro,quantidadefiguras);
+      ObraAluno(&quadro,quantidadefiguras);
       ImprimirQuadro(quadro);
 
       int flag =1; 
@@ -146,7 +146,7 @@ int main()
 
         if(flag ==1){
           IniciarQuadro(&quadro);
-          Desenhovaquinha(&quadro,quantidadefiguras);
+          ObraAluno(&quadro,quantidadefiguras);
           ImprimirQuadro(quadro);
         }else{
            system("cls");
