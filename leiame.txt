@@ -1,0 +1,16 @@
+# TRABALHO PRÁTICO 0: Aquecimento Linguagem C
+
+## Execução no Linux
+Para executar o código no Linux, certifique-se de que já foi feita a instalação de um compilador para a linguagem C na sua máquina.
+No caso, trabalhamos usando o GCC, e verifica-se sua instalação, pelo terminal, com o comando ```gcc --version```. 
+Posteriormente, use o comando ```cd <path>```, onde <path> deverá ser substituído pelo caminho da pasta onde contém o trabalho; 
+isso fará com que o terminal abra essa determinada pasta. Feito isso, basta digitar no terminal ```make both``` que o programa será compilado 
+e executado.
+
+## Execução no Windows
+Assim como no Linux, no Windows também é necessário verificar a instalação de um compilador para a linguagem C. 
+Também usando o GCC, vamos fazer a verificação da instalação da mesma forma:  ```gcc --version```. Então, é importante que o terminal 
+seja executado na pasta dos arquivos, assim, vamos executar o comando ```cd <path>```, onde <path> deverá ser substituído pelo 
+caminho da pasta onde contém o trabalho. Feito isso, é necessário digitar no terminal: 
+```gcc main.c quadro.c -o main```. Isso fará com que o programa seja compilado, e criará um arquivo main.exe na mesma pasta. 
+Para executar, basta digitar no terminal ```./main```.
